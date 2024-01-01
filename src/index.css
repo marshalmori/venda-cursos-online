@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient {
+  background: linear-gradient(90deg, #243b4a 0%, #87bcde 100%);
+
+  /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
+  /* background: linear-gradient(90deg, #33F2B9 0%, #daae51 100%); */
+}

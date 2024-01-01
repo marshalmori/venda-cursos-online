@@ -1,5 +1,13 @@
+import Navbar from "./features/Navbar";
+
 function App() {
-  return <>Hello World</>;
+  return (
+    <>
+      <div>
+        <Navbar />
+      </div>
+    </>
+  );
 }
 
 export default App;
