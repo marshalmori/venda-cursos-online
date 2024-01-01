@@ -1,11 +1,13 @@
+import Headline from "./features/Headline";
 import Navbar from "./features/Navbar";
+import Section from "./features/Section";
 
 function App() {
   return (
     <>
-      <div>
-        <Navbar />
-      </div>
+      <Navbar />
+      <Headline />
+      <Section />
     </>
   );
 }
