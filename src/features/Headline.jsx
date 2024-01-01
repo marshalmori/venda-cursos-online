@@ -1,3 +1,5 @@
+import Button from "../ui/Button";
+
 const Headline = () => {
   return (
     <>
@@ -11,9 +13,7 @@ const Headline = () => {
             <p className="leading-normal text-2xl mb-8">
               Sub-hero message, not too long and not too short. Make it just.
             </p>
-            <button className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-              Subscribe
-            </button>
+            <Button />
           </div>
 
           <div className="w-full md:w-3/5 py-6 text-center">

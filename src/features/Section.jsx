@@ -1,3 +1,5 @@
+import Button from "../ui/Button";
+
 const Section = () => {
   return (
     <>
@@ -511,9 +513,7 @@ const Section = () => {
             </div>
             <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
               <div className="flex items-center justify-start">
-                <button className="mx-auto lg:mx-0 hover:underline color-button text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Action
-                </button>
+                <Button />
               </div>
             </div>
           </div>
@@ -537,9 +537,7 @@ const Section = () => {
             </div>
             <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
               <div className="flex items-center justify-center">
-                <button className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Action
-                </button>
+                <Button />
               </div>
             </div>
           </div>
@@ -563,9 +561,7 @@ const Section = () => {
             </div>
             <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
               <div className="flex items-center justify-end">
-                <button className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Action
-                </button>
+                <Button />
               </div>
             </div>
           </div>
@@ -597,9 +593,7 @@ const Section = () => {
                   <span className="text-base">for one user</span>
                 </div>
                 <div className="flex items-center justify-center">
-                  <button className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                    Sign Up
-                  </button>
+                  <Button />
                 </div>
               </div>
             </div>
@@ -622,9 +616,7 @@ const Section = () => {
                   <span className="text-base">/ per user</span>
                 </div>
                 <div className="flex items-center justify-center">
-                  <button className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                    Sign Up
-                  </button>
+                  <Button />
                 </div>
               </div>
             </div>
@@ -645,9 +637,7 @@ const Section = () => {
                   <span className="text-base">/ per user</span>
                 </div>
                 <div className="flex items-center justify-center">
-                  <button className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                    Sign Up
-                  </button>
+                  <Button />
                 </div>
               </div>
             </div>
@@ -696,9 +686,7 @@ const Section = () => {
         <h3 className="my-4 text-3xl leading-tight">
           Main Hero Message to sell yourself!
         </h3>
-        <button className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-          Action!
-        </button>
+        <Button />
       </section>
     </>
   );

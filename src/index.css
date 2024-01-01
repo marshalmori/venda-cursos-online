@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+button {
+  background: #d53369;
+}
+
 .gradient {
   background: linear-gradient(90deg, #243b4a 0%, #87bcde 100%);
 
