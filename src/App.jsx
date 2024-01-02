@@ -1,14 +1,25 @@
-import Headline from "./features/Headline";
-import Navbar from "./features/Navbar";
-import Section from "./features/Section";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import DepilacaoProfissional from "./pages/DepilacaoProfissional";
+import SobrancelhaPerfeita from "./pages/SobrancelhaPerfeita";
+import ViverCilios from "./pages/ViverCilios";
+import Homepage from "./pages/Homepage";
+import PageNotFound from "./pages/PageNotFound";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Headline />
-      <Section />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route
+          path="depilacao-profissional"
+          element={<DepilacaoProfissional />}
+        />
+
+        <Route path="sobrancelha-perfeita" element={<SobrancelhaPerfeita />} />
+        <Route path="viver-cilios" element={<ViverCilios />} />
+        <Route path="*" element={<PageNotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
