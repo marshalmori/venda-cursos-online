@@ -7,12 +7,21 @@ const DepilacaoProfissional = () => {
   const textColorButton = "text-white";
   const bgColorButton = "bg-orange-700";
 
+  const bgColorNavbarFrom = "#243b4a";
+  const bgColorNavbarTo = "#87bcde";
+  const textColorNavbar = "text-white";
+  const textNavbar = "Marshal Mori";
+
   return (
     <>
       <Navbar
         textButton={textButton}
         textColorButton={textColorButton}
         bgColorButton={bgColorButton}
+        bgColorNavbarFrom={bgColorNavbarFrom}
+        bgColorNavbarTo={bgColorNavbarTo}
+        textColorNavbar={textColorNavbar}
+        textNavbar={textNavbar}
       />
       <Headline
         textButton={textButton}
