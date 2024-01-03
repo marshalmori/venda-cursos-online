@@ -1,6 +1,9 @@
+// import { useState } from "react";
 import Button from "../ui/Button";
 
-const Headline = () => {
+const Headline = ({ textButton, textColorButton, bgColorButton }) => {
+  // const [textColor, setTextColor] = useState("");
+
   return (
     <>
       <div className="pt-24 leading-normal tracking-normal text-white gradient">
@@ -13,7 +16,11 @@ const Headline = () => {
             <p className="leading-normal text-2xl mb-8">
               Sub-hero message, not too long and not too short. Make it just.
             </p>
-            <Button />
+            <Button
+              text={textButton}
+              textColor={textColorButton}
+              bgColor={bgColorButton}
+            />
           </div>
 
           <div className="w-full md:w-3/5 py-6 text-center">

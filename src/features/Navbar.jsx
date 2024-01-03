@@ -1,6 +1,6 @@
 import Button from "../ui/Button";
 
-const Navbar = () => {
+const Navbar = ({ textButton, textColorButton, bgColorButton }) => {
   return (
     <nav id="header" className="fixed w-full z-30 top-0 text-white gradient">
       <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2 ">
@@ -31,13 +31,21 @@ const Navbar = () => {
           </a>
         </div>
         <div className="block lg:hidden pr-4">
-          <Button />
+          <Button
+            text={textButton}
+            textColor={textColorButton}
+            bgColor={bgColorButton}
+          />
         </div>
         <div
           className="lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
           id="nav-content"
         >
-          <Button />
+          <Button
+            text={textButton}
+            textColor={textColorButton}
+            bgColor={bgColorButton}
+          />
         </div>
       </div>
       <hr className="border-b border-gray-100 opacity-25 my-0 py-0 " />

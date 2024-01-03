@@ -1,6 +1,6 @@
 import Button from "../ui/Button";
 
-const Section = () => {
+const Section = ({ textButton, textColorButton, bgColorButton }) => {
   return (
     <>
       <section className="bg-white border-b py-8">
@@ -513,7 +513,11 @@ const Section = () => {
             </div>
             <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
               <div className="flex items-center justify-start">
-                <Button />
+                <Button
+                  text={textButton}
+                  textColor={textColorButton}
+                  bgColor={bgColorButton}
+                />
               </div>
             </div>
           </div>
@@ -537,7 +541,11 @@ const Section = () => {
             </div>
             <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
               <div className="flex items-center justify-center">
-                <Button />
+                <Button
+                  text={textButton}
+                  textColor={textColorButton}
+                  bgColor={bgColorButton}
+                />
               </div>
             </div>
           </div>
@@ -561,7 +569,11 @@ const Section = () => {
             </div>
             <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
               <div className="flex items-center justify-end">
-                <Button />
+                <Button
+                  text={textButton}
+                  textColor={textColorButton}
+                  bgColor={bgColorButton}
+                />
               </div>
             </div>
           </div>
@@ -593,7 +605,11 @@ const Section = () => {
                   <span className="text-base">for one user</span>
                 </div>
                 <div className="flex items-center justify-center">
-                  <Button />
+                  <Button
+                    text={textButton}
+                    textColor={textColorButton}
+                    bgColor={bgColorButton}
+                  />
                 </div>
               </div>
             </div>
@@ -616,7 +632,11 @@ const Section = () => {
                   <span className="text-base">/ per user</span>
                 </div>
                 <div className="flex items-center justify-center">
-                  <Button />
+                  <Button
+                    text={textButton}
+                    textColor={textColorButton}
+                    bgColor={bgColorButton}
+                  />
                 </div>
               </div>
             </div>
@@ -637,7 +657,11 @@ const Section = () => {
                   <span className="text-base">/ per user</span>
                 </div>
                 <div className="flex items-center justify-center">
-                  <Button />
+                  <Button
+                    text={textButton}
+                    textColor={textColorButton}
+                    bgColor={bgColorButton}
+                  />
                 </div>
               </div>
             </div>
@@ -686,7 +710,11 @@ const Section = () => {
         <h3 className="my-4 text-3xl leading-tight">
           Main Hero Message to sell yourself!
         </h3>
-        <Button />
+        <Button
+          text={textButton}
+          textColor={textColorButton}
+          bgColor={bgColorButton}
+        />
       </section>
     </>
   );
