@@ -7,10 +7,10 @@ const SobrancelhaPerfeita = () => {
   const textColorButton = "text-white";
   const bgColorButton = "bg-red-700";
 
-  const bgColorNavbarFrom = "#243b4a";
-  const bgColorNavbarTo = "#87bcde";
+  const bgColorNavbarFrom = "from-green-400";
+  const bgColorNavbarTo = "to-blue-500";
   const textColorNavbar = "text-white";
-  const textNavbar = "Marshal Mori";
+  const textNavbar = "sobrancelha";
 
   return (
     <>

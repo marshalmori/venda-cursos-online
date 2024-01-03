@@ -7,10 +7,10 @@ const ViverCilios = () => {
   const textColorButton = "text-gray-600";
   const bgColorButton = "bg-yellow-300";
 
-  const bgColorNavbarFrom = "#243b4a";
-  const bgColorNavbarTo = "#87bcde";
+  const bgColorNavbarFrom = "from-indigo-500";
+  const bgColorNavbarTo = "to-yellow-500";
   const textColorNavbar = "text-white";
-  const textNavbar = "Marshal Mori";
+  const textNavbar = "Viver de Cílios";
 
   return (
     <>

@@ -10,7 +10,7 @@ const Navbar = ({
   textNavbar,
 }) => {
   const base = `fixed w-full z-30 top-0 ${textColorNavbar}`;
-  const gradiente = `bg-gradient-to-r from-[${bgColorNavbarFrom}] to-[${bgColorNavbarTo}]`;
+  const gradiente = `bg-gradient-to-r ${bgColorNavbarFrom} ${bgColorNavbarTo}`;
 
   return (
     <nav id="header" className={`${base} ${gradiente}`}>
