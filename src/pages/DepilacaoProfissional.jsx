@@ -12,6 +12,13 @@ const DepilacaoProfissional = () => {
   const textColorNavbar = "text-white";
   const textNavbar = "Depilação";
 
+  const bgColorHeadlineFrom = "from-cyan-500";
+  const bgColorHeadlineTo = "to-blue-500";
+  const textHeadlineH1 = "Main Hero Message to sell yourself!";
+  const textHeadlineParagraph =
+    "Sub-hero message, not too long and not too short. Make it just.";
+  const imgHeadline = "hero.png";
+
   return (
     <>
       <Navbar
@@ -27,6 +34,11 @@ const DepilacaoProfissional = () => {
         textButton={textButton}
         textColorButton={textColorButton}
         bgColorButton={bgColorButton}
+        bgColorHeadlineFrom={bgColorHeadlineFrom}
+        bgColorHeadlineTo={bgColorHeadlineTo}
+        textHeadlineH1={textHeadlineH1}
+        textHeadlineParagraph={textHeadlineParagraph}
+        imgHeadline={imgHeadline}
       />
       <Section
         textButton={textButton}
