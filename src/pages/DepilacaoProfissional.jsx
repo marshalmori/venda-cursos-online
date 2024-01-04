@@ -3,6 +3,7 @@ import Section from "../features/Section";
 import Headline from "../features/Headline";
 
 const DepilacaoProfissional = () => {
+  const linkToButton = "https://www.google.com";
   const textButton = "Compre já";
   const textColorButton = "text-white";
   const bgColorButton = "bg-orange-700";
@@ -22,6 +23,7 @@ const DepilacaoProfissional = () => {
   return (
     <>
       <Navbar
+        linkToButton={linkToButton}
         textButton={textButton}
         textColorButton={textColorButton}
         bgColorButton={bgColorButton}
@@ -31,6 +33,7 @@ const DepilacaoProfissional = () => {
         textNavbar={textNavbar}
       />
       <Headline
+        linkToButton={linkToButton}
         textButton={textButton}
         textColorButton={textColorButton}
         bgColorButton={bgColorButton}
@@ -41,6 +44,7 @@ const DepilacaoProfissional = () => {
         imgHeadline={imgHeadline}
       />
       <Section
+        linkToButton={linkToButton}
         textButton={textButton}
         textColorButton={textColorButton}
         bgColorButton={bgColorButton}

@@ -1,6 +1,7 @@
 import Button from "../ui/Button";
 
 const Navbar = ({
+  linkToButton,
   textButton,
   textColorButton,
   bgColorButton,
@@ -43,6 +44,7 @@ const Navbar = ({
         </div>
         <div className="block lg:hidden pr-4">
           <Button
+            linkToButton={linkToButton}
             text={textButton}
             textColor={textColorButton}
             bgColor={bgColorButton}
@@ -53,6 +55,7 @@ const Navbar = ({
           id="nav-content"
         >
           <Button
+            linkToButton={linkToButton}
             text={textButton}
             textColor={textColorButton}
             bgColor={bgColorButton}

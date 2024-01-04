@@ -2,6 +2,7 @@
 import Button from "../ui/Button";
 
 const Headline = ({
+  linkToButton,
   textButton,
   textColorButton,
   bgColorButton,
@@ -26,6 +27,7 @@ const Headline = ({
               {textHeadlineParagraph}
             </p>
             <Button
+              linkToButton={linkToButton}
               text={textButton}
               textColor={textColorButton}
               bgColor={bgColorButton}

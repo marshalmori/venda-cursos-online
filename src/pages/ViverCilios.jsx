@@ -3,6 +3,7 @@ import Section from "../features/Section";
 import Headline from "../features/Headline";
 
 const ViverCilios = () => {
+  const linkToButton = "https://www.google.com";
   const textButton = "Compre já";
   const textColorButton = "text-white";
   const bgColorButton = "bg-sky-500";
@@ -22,6 +23,7 @@ const ViverCilios = () => {
   return (
     <>
       <Navbar
+        linkToButton={linkToButton}
         textButton={textButton}
         textColorButton={textColorButton}
         bgColorButton={bgColorButton}
@@ -31,6 +33,7 @@ const ViverCilios = () => {
         textNavbar={textNavbar}
       />
       <Headline
+        linkToButton={linkToButton}
         textButton={textButton}
         textColorButton={textColorButton}
         bgColorButton={bgColorButton}
@@ -41,6 +44,7 @@ const ViverCilios = () => {
         imgHeadline={imgHeadline}
       />
       <Section
+        linkToButton={linkToButton}
         textButton={textButton}
         textColorButton={textColorButton}
         bgColorButton={bgColorButton}
