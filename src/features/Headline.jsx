@@ -26,6 +26,7 @@ const Headline = ({
             <p className="leading-normal text-2xl mb-8">
               {textHeadlineParagraph}
             </p>
+
             <Button
               linkToButton={linkToButton}
               text={textButton}

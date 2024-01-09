@@ -1,23 +1,25 @@
 import Navbar from "../features/Navbar";
 import Section from "../features/Section";
 import Headline from "../features/Headline";
+import SectionCourseContent from "../features/SectionCourseContent";
 
 const DepilacaoProfissional = () => {
   const linkToButton = "https://www.google.com";
-  const textButton = "Compre já";
+  const textButton = "Começar Agora";
   const textColorButton = "text-white";
-  const bgColorButton = "bg-orange-700";
+  const bgColorButton = "bg-[#18765F]";
 
-  const bgColorNavbarFrom = "from-cyan-500";
-  const bgColorNavbarTo = "to-blue-500";
+  const bgColorNavbarFrom = "from-[#a64142]";
+  const bgColorNavbarTo = "to-[#fff1e4]";
   const textColorNavbar = "text-white";
-  const textNavbar = "Depilação";
+  const textNavbar = "Curso de depilação";
 
-  const bgColorHeadlineFrom = "from-cyan-500";
-  const bgColorHeadlineTo = "to-blue-500";
-  const textHeadlineH1 = "Main Hero Message to sell yourself!";
+  const bgColorHeadlineFrom = "from-[#a64142]";
+  const bgColorHeadlineTo = "to-[#fff1e4]";
+  const textHeadlineH1 =
+    "Conquiste sua independência financeira como profissional de DEPILAÇÃO!";
   const textHeadlineParagraph =
-    "Sub-hero message, not too long and not too short. Make it just.";
+    "Tenha seu próprio negócio, trabalhe de casa ou monte sua própria clínica. Ensinaremos como ser um profissional partindo do absoluto ZERO.";
   const imgHeadline = "hero.png";
 
   return (
@@ -43,6 +45,14 @@ const DepilacaoProfissional = () => {
         textHeadlineParagraph={textHeadlineParagraph}
         imgHeadline={imgHeadline}
       />
+
+      <SectionCourseContent
+        linkToButton={linkToButton}
+        textButton={textButton}
+        textColorButton={textColorButton}
+        bgColorButton={bgColorButton}
+      />
+
       <Section
         linkToButton={linkToButton}
         textButton={textButton}
