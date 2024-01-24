@@ -1,21 +1,24 @@
 import Navbar from "../features/Navbar";
 import Section from "../features/Section";
 import Headline from "../features/Headline";
+import Footer from "../features/Footer";
 import SectionCourseContent from "../features/SectionCourseContent";
 
 const DepilacaoProfissional = () => {
   const linkToButton = "https://www.google.com";
   const textButton = "Começar Agora";
   const textColorButton = "text-white";
-  const bgColorButton = "bg-[#18765F]";
+  // const bgColorButton = "bg-[#18765F]";
+  const bgColorButton = "bg-[#3DD552]";
 
   const bgColorNavbarFrom = "from-[#a64142]";
-  const bgColorNavbarTo = "to-[#fff1e4]";
+  const bgColorNavbarTo = "to-[#18765F]";
+  // const bgColorNavbarTo = "to-[#fff1e4]";
   const textColorNavbar = "text-white";
   const textNavbar = "Curso de depilação";
 
   const bgColorHeadlineFrom = "from-[#a64142]";
-  const bgColorHeadlineTo = "to-[#fff1e4]";
+  const bgColorHeadlineTo = "to-[#18765F]";
   const textHeadlineH1 =
     "Conquiste sua independência financeira como profissional de DEPILAÇÃO!";
   const textHeadlineParagraph =
@@ -58,6 +61,17 @@ const DepilacaoProfissional = () => {
         textButton={textButton}
         textColorButton={textColorButton}
         bgColorButton={bgColorButton}
+      />
+
+      <Footer
+        linkToButton={linkToButton}
+        textButton={textButton}
+        textColorButton={textColorButton}
+        bgColorButton={bgColorButton}
+        bgColorNavbarFrom={bgColorNavbarFrom}
+        bgColorNavbarTo={bgColorNavbarTo}
+        textColorNavbar={textColorNavbar}
+        textNavbar={textNavbar}
       />
     </>
   );
