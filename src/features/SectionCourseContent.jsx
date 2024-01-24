@@ -328,13 +328,22 @@ const SectionCourseContent = ({
           ))}
         </div>
 
-        <div className="mt-9">
+        <div className="flex flex-col mx-auto justify-center mt-9 space-x-2 items-center">
           <Button
             linkToButton={linkToButton}
             text={textButton}
             textColor={textColorButton}
             bgColor={bgColorButton}
           />
+
+          {/* Price */}
+          <div className="flex flex-col mb-4 space-y-3 text-center border-2 p-4 rounded-lg border-green-400">
+            <p className="uppercase font-semibold">Preço Promocional</p>
+            <span className="flex mx-auto">
+              De &emsp; <p className="line-through"> R$547,00</p>
+            </span>
+            <p className="text-3xl font-bold">Por R$147,00</p>
+          </div>
         </div>
         {/* <p className="text-center text-gray-600 textbase mt-9">
           Didn’t find the answer you are looking for?{" "}
