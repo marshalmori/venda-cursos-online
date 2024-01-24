@@ -2,6 +2,7 @@ import Navbar from "../features/Navbar";
 import Section from "../features/Section";
 import Headline from "../features/Headline";
 import Footer from "../features/Footer";
+import LearningResources from "../features/LearningResources";
 import SectionCourseContent from "../features/SectionCourseContent";
 
 const DepilacaoProfissional = () => {
@@ -55,6 +56,8 @@ const DepilacaoProfissional = () => {
         textColorButton={textColorButton}
         bgColorButton={bgColorButton}
       />
+
+      <LearningResources />
 
       <Section
         linkToButton={linkToButton}
