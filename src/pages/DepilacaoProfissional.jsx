@@ -4,6 +4,7 @@ import Headline from "../features/Headline";
 import Footer from "../features/Footer";
 import LearningResources from "../features/LearningResources";
 import SectionCourseContent from "../features/SectionCourseContent";
+import Bonus from "../features/Bonus";
 
 const DepilacaoProfissional = () => {
   const linkToButton = "https://www.google.com";
@@ -12,14 +13,16 @@ const DepilacaoProfissional = () => {
   // const bgColorButton = "bg-[#18765F]";
   const bgColorButton = "bg-[#3DD552]";
 
-  const bgColorNavbarFrom = "from-[#a64142]";
-  const bgColorNavbarTo = "to-[#18765F]";
+  // const bgColorNavbarFrom = "from-[#a64142]";
+  const bgColorNavbarFrom = "from-[#18765F]";
+  const bgColorNavbarTo = "to-[#a64142]";
   // const bgColorNavbarTo = "to-[#fff1e4]";
   const textColorNavbar = "text-white";
   const textNavbar = "Curso de depilação";
 
-  const bgColorHeadlineFrom = "from-[#a64142]";
-  const bgColorHeadlineTo = "to-[#18765F]";
+  // const bgColorHeadlineFrom = "from-[#a64142]";
+  const bgColorHeadlineFrom = "from-[#18765F]";
+  const bgColorHeadlineTo = "to-[#a64142]";
   const textHeadlineH1 =
     "Conquiste sua independência financeira como profissional de DEPILAÇÃO!";
   const textHeadlineParagraph =
@@ -58,6 +61,8 @@ const DepilacaoProfissional = () => {
       />
 
       <LearningResources />
+
+      <Bonus />
 
       <Section
         linkToButton={linkToButton}

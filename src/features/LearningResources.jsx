@@ -8,7 +8,7 @@ const LearningResources = () => {
             Recursos de Aprendizado
           </h2>
           <p className="max-w-xs mx-auto text-lg text-center text-gray-600 md:max-w-md">
-            Além das vídeos aulas você terá também os recursos abaixo para{" "}
+            Além das vídeo aulas você terá também os recursos abaixo para{" "}
             <strong className="uppercase">acelerar</strong> e reforçar o{" "}
             <strong className="uppercase">aprendizado</strong> de forma{" "}
             <strong className="uppercase">eficiente</strong>.
