@@ -6,6 +6,7 @@ import LearningResources from "../features/LearningResources";
 import SectionCourseContent from "../features/SectionCourseContent";
 import Bonus from "../features/Bonus";
 import StudyMaterials from "../features/StudyMaterials";
+import Testimonial from "../features/Testimonial";
 
 const DepilacaoProfissional = () => {
   const linkToButton = "https://www.google.com";
@@ -71,6 +72,8 @@ const DepilacaoProfissional = () => {
         textColorButton={textColorButton}
         bgColorButton={bgColorButton}
       />
+
+      <Testimonial />
 
       <Section
         linkToButton={linkToButton}
