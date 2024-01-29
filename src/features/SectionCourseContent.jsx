@@ -337,8 +337,8 @@ const SectionCourseContent = ({
           />
 
           {/* Price */}
-          <div className="flex flex-col mb-4 space-y-3 text-center border-2 p-4 rounded-lg border-green-400">
-            <p className="uppercase font-semibold">Preço Promocional</p>
+          <div className="flex flex-col w-full md:w-96 mb-4 space-y-3 text-center border-2 p-4 rounded-lg border-green-400">
+            <p className="uppercase font-semibold text-xl">Preço Promocional</p>
             <span className="flex mx-auto">
               De &emsp; <p className="line-through"> R$547,00</p>
             </span>
