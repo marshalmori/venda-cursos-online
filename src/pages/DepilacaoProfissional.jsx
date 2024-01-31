@@ -9,6 +9,7 @@ import StudyMaterials from "../features/StudyMaterials";
 import Testimonial from "../features/Testimonial";
 import SuccessStories from "../features/SuccessStories";
 import CustomerSatisfaction from "../features/CustomerSatisfaction";
+import CertificateOfCompletion from "../features/CertificateOfCompletion";
 
 const DepilacaoProfissional = () => {
   const linkToButton = "https://www.google.com";
@@ -85,6 +86,8 @@ const DepilacaoProfissional = () => {
       />
 
       <CustomerSatisfaction />
+
+      <CertificateOfCompletion />
 
       <Section
         linkToButton={linkToButton}

@@ -10,7 +10,7 @@ const StudyMaterials = ({
     <div>
       {/* <!-- Features Heading --> */}
       <section id="features" className="py-10">
-        <div className="container mx-auto mt-16 px-6">
+        <div className="container mx-auto mt-10 px-6">
           <h2 className="mb-6 text-4xl font-bold text-center">
             Fornecemos Materiais de Estudo e Apoio
           </h2>
@@ -25,7 +25,7 @@ const StudyMaterials = ({
       {/* <!-- Features Tabs --> */}
       <section id="tabs">
         {/* <!-- Tabs/Panels Container --> */}
-        <div className="container relative mx-auto my-6 mb-32 mt-12 px-6">
+        <div className="container relative mx-auto my-6 mb-12 mt-12 px-6">
           <div id="panels" className="container mx-auto">
             {/* <!-- Panel 1 --> */}
             <div className="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-1">
@@ -35,7 +35,7 @@ const StudyMaterials = ({
               </div>
               {/* <!-- Panel Content --> */}
               <div className="flex flex-col space-y-8 md:w-1/2">
-                <h3 className="mt-32 text-3xl font-semibold text-center md:mt-0 md:text-left">
+                <h3 className="mt-12 text-3xl font-semibold text-center md:mt-0 md:text-left">
                   PDFs do Curso
                 </h3>
                 <ul className="list-inside text-gray-600">
