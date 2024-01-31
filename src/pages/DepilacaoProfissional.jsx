@@ -7,6 +7,8 @@ import SectionCourseContent from "../features/SectionCourseContent";
 import Bonus from "../features/Bonus";
 import StudyMaterials from "../features/StudyMaterials";
 import Testimonial from "../features/Testimonial";
+import SuccessStories from "../features/SuccessStories";
+import CustomerSatisfaction from "../features/CustomerSatisfaction";
 
 const DepilacaoProfissional = () => {
   const linkToButton = "https://www.google.com";
@@ -74,6 +76,15 @@ const DepilacaoProfissional = () => {
       />
 
       <Testimonial />
+
+      <SuccessStories
+        linkToButton={linkToButton}
+        textButton={textButton}
+        textColorButton={textColorButton}
+        bgColorButton={bgColorButton}
+      />
+
+      <CustomerSatisfaction />
 
       <Section
         linkToButton={linkToButton}
