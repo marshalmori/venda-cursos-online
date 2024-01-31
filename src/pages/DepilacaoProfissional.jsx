@@ -1,5 +1,5 @@
 import Navbar from "../features/Navbar";
-import Section from "../features/Section";
+// import Section from "../features/Section";
 import Headline from "../features/Headline";
 import Footer from "../features/Footer";
 import LearningResources from "../features/LearningResources";
@@ -10,9 +10,10 @@ import Testimonial from "../features/Testimonial";
 import SuccessStories from "../features/SuccessStories";
 import CustomerSatisfaction from "../features/CustomerSatisfaction";
 import CertificateOfCompletion from "../features/CertificateOfCompletion";
+import Faq from "../features/Faq";
 
 const DepilacaoProfissional = () => {
-  const linkToButton = "https://www.google.com";
+  const linkToButton = "https://hotm.art/OSRmOy";
   const textButton = "Começar Agora";
   const textColorButton = "text-white";
   // const bgColorButton = "bg-[#18765F]";
@@ -89,12 +90,19 @@ const DepilacaoProfissional = () => {
 
       <CertificateOfCompletion />
 
-      <Section
+      <Faq
         linkToButton={linkToButton}
         textButton={textButton}
         textColorButton={textColorButton}
         bgColorButton={bgColorButton}
       />
+      {/*
+      <Section
+        linkToButton={linkToButton}
+        textButton={textButton}
+        textColorButton={textColorButton}
+        bgColorButton={bgColorButton}
+      /> */}
 
       <Footer
         linkToButton={linkToButton}

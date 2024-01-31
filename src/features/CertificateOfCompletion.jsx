@@ -13,7 +13,7 @@ const CertificateOfCompletion = () => {
       {/* <!-- Features Tabs --> */}
       <section>
         {/* <!-- Container --> */}
-        <div className="container relative mx-auto my-6 mb-32 mt-4 px-6">
+        <div className="container relative mx-auto my-6 mb-10 mt-4 px-6">
           <div className="container mx-auto">
             {/* <!-- Panel 1 --> */}
             <div className="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-1">
