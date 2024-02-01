@@ -31,7 +31,7 @@ const CertificateOfCompletion = () => {
                   Certificado
                 </h3>
                 <p className="max-w-md mx-auto text-center text-gray-600 text-lg  md:max-w-md">
-                  Ao concluir as aulas você receberá o certificado de conclusão
+                  Ao finalizar as aulas você receberá o certificado de conclusão
                   do curso. Além disso, continuará com acesso a todas as
                   atualizações que forem lançadas no decorrer dos 12 meses e
                   também terá a mentoria online por 3 meses com a professora.
