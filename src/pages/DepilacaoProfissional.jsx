@@ -104,16 +104,7 @@ const DepilacaoProfissional = () => {
         bgColorButton={bgColorButton}
       /> */}
 
-      <Footer
-        linkToButton={linkToButton}
-        textButton={textButton}
-        textColorButton={textColorButton}
-        bgColorButton={bgColorButton}
-        bgColorNavbarFrom={bgColorNavbarFrom}
-        bgColorNavbarTo={bgColorNavbarTo}
-        textColorNavbar={textColorNavbar}
-        textNavbar={textNavbar}
-      />
+      <Footer />
     </>
   );
 };

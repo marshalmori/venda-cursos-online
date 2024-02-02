@@ -1,63 +1,83 @@
-import Button from "../ui/Button";
-
-const Footer = ({
-  linkToButton,
-  textButton,
-  textColorButton,
-  bgColorButton,
-  bgColorNavbarFrom,
-  bgColorNavbarTo,
-  textColorNavbar,
-  //   textNavbar,
-}) => {
-  const base = `fixed w-full z-30 bottom-0 mx-auto lg:hidden ${textColorNavbar}`;
-  const gradiente = `bg-gradient-to-r ${bgColorNavbarFrom} ${bgColorNavbarTo}`;
-
+const Footer = () => {
+  // <!-- Footer Section -->
   return (
-    <footer id="header" className={`${base} ${gradiente} `}>
-      <hr className="border-t-4 border-gray-100 opacity-25 my-0 py-0" />
-      <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2 ">
-        <div className="flex py-4 ">
-          <a
-            className={`${textColorNavbar}  no-underline hover:no-underline font-bold text-2xl lg:text-4xl uppercase`}
-            href="#"
-          >
-            {/* <svg
-              className="h-8 fill-current inline mr-4"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 512.005 512.005"
-            >
-              <rect
-                fill={`${textColorNavbar}`}
-                x="16.539"
-                y="425.626"
-                width="479.767"
-                height="50.502"
-                transform="matrix(1,0,0,1,0,0)"
-              />
-              <path
-                className="plane-take-off"
-                d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "
-              />
-            </svg> */}
-            {/* {textNavbar} */}
-          </a>
-        </div>
-        <div className="mx-auto block lg:hidden pr-4">
-          <Button
-            linkToButton={linkToButton}
-            text={textButton}
-            textColor={textColorButton}
-            bgColor={bgColorButton}
-          />
-        </div>
-        <div className="lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20">
-          <Button
-            linkToButton={linkToButton}
-            text={textButton}
-            textColor={textColorButton}
-            bgColor={bgColorButton}
-          />
+    <footer className="bg-black">
+      {/* <!-- Container --> */}
+      <div className="container max-w-6xl py-10 mx-auto">
+        {/* <!-- Footer Flex Container --> */}
+        <div className="flex flex-col items-center mb-8 space-y-6 md:flex-row md:space-y-0 md:justify-between md:items-start">
+          {/* <!-- Menu & Logo Container --> */}
+          <div className="flex flex-col items-center space-y-8 md:items-start md:space-y-4">
+            {/* <!-- Logo --> */}
+            <div className="h-8">
+              {/* <img src="images/logo.svg" alt="" className="w-44 md:ml-3" /> */}
+            </div>
+            {/* <!-- Menu Container --> */}
+            <div className="flex flex-col items-center space-y-4 font-bold text-white md:flex-row md:space-y-0 md:space-x-6 md:ml-3">
+              {/* <!-- Item 1 --> */}
+              <div className="h-10 group">
+                <a href="#">About</a>
+                <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+              </div>
+              {/* <!-- Item 2 --> */}
+              <div className="h-10 group">
+                <a href="#">Careers</a>
+                <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+              </div>
+              {/* <!-- Item 3 --> */}
+              <div className="h-10 group">
+                <a href="#">Events</a>
+                <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+              </div>
+              {/* <!-- Item 4 --> */}
+              <div className="h-10 group">
+                <a href="#">Products</a>
+                <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+              </div>
+              {/* <!-- Item 5 --> */}
+              <div className="h-10 group">
+                <a href="#">Support</a>
+                <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+              </div>
+            </div>
+          </div>
+
+          {/* <!-- Social & Copy Container --> */}
+          <div className="flex flex-col items-start justify-between space-y-4 text-gray-500">
+            {/* <!-- icons Container --> */}
+            <div className="flex items-center justify-center mx-auto space-x-4 md:justify-end md:mx-0">
+              {/* <!-- Icon 1 --> */}
+              <div className="h-8 group">
+                <a href="#">
+                  <img src="images/icon-facebook.svg" alt="" className="h-6" />
+                </a>
+              </div>
+              {/* <!-- Icon 2 --> */}
+              <div className="h-8 group">
+                <a href="#">
+                  <img src="images/icon-twitter.svg" alt="" className="h-6" />
+                </a>
+              </div>
+              {/* <!-- Icon 3 --> */}
+              <div className="h-8 group">
+                <a href="#">
+                  <img src="images/icon-pinterest.svg" alt="" className="h-6" />
+                </a>
+              </div>
+              {/* <!-- Icon 4 --> */}
+              <div className="h-8 group">
+                <a href="#">
+                  <img src="images/icon-instagram.svg" alt="" className="h-6" />
+                </a>
+              </div>
+            </div>
+
+            {/* <!-- Copy --> */}
+            <div className="font-bold">
+              &copy;{new Date().getFullYear()} Marshal. Todos os direitos
+              reservados.
+            </div>
+          </div>
         </div>
       </div>
     </footer>
