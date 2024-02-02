@@ -23,16 +23,18 @@ const Headline = ({
             <h1 className="my-7 text-5xl font-bold leading-tight">
               {textHeadlineH1}
             </h1>
-            <p className="leading-normal text-2xl mb-8">
+            <p className="leading-normal text-3xl md:text-2xl md:mt-0 mt-4 mb-8">
               {textHeadlineParagraph}
             </p>
 
-            <Button
-              linkToButton={linkToButton}
-              text={textButton}
-              textColor={textColorButton}
-              bgColor={bgColorButton}
-            />
+            <div className="hidden">
+              <Button
+                linkToButton={linkToButton}
+                text={textButton}
+                textColor={textColorButton}
+                bgColor={bgColorButton}
+              />
+            </div>
           </div>
 
           <div className="w-full md:w-3/5 py-6 text-center">

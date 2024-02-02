@@ -11,6 +11,7 @@ import SuccessStories from "../features/SuccessStories";
 import CustomerSatisfaction from "../features/CustomerSatisfaction";
 import CertificateOfCompletion from "../features/CertificateOfCompletion";
 import Faq from "../features/Faq";
+import BottonBarNavegation from "../features/BottonBarNavegation";
 
 const DepilacaoProfissional = () => {
   const linkToButton = "https://hotm.art/OSRmOy";
@@ -105,6 +106,16 @@ const DepilacaoProfissional = () => {
       /> */}
 
       <Footer />
+
+      <BottonBarNavegation
+        linkToButton={linkToButton}
+        textButton={textButton}
+        textColorButton={textColorButton}
+        bgColorButton={bgColorButton}
+        bgColorNavbarFrom={bgColorNavbarFrom}
+        bgColorNavbarTo={bgColorNavbarTo}
+        textColorNavbar={textColorButton}
+      />
     </>
   );
 };
