@@ -25,13 +25,17 @@ const StudyMaterials = ({
       {/* <!-- Features Tabs --> */}
       <section id="tabs">
         {/* <!-- Tabs/Panels Container --> */}
-        <div className="container relative mx-auto my-6 mb-12 mt-12 px-6">
+        <div className="container relative mx-auto my-6 mb-12 mt-8 px-6">
           <div id="panels" className="container mx-auto">
             {/* <!-- Panel 1 --> */}
             <div className="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-1">
               {/* <!-- Panel Image --> */}
               <div className="flex justify-center md:w-1/2">
-                <img src="hero3.svg" alt="" className="relative z-10" />
+                <img
+                  src="images/women_reading.svg"
+                  alt=""
+                  className="relative z-10"
+                />
               </div>
               {/* <!-- Panel Content --> */}
               <div className="flex flex-col space-y-8 md:w-1/2">

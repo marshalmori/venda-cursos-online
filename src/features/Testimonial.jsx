@@ -2,7 +2,7 @@ const Testimonial = () => {
   return (
     <>
       {/* <!-- Testimonial section --> */}
-      <section id="download" className="bg-gray-600 pt-12">
+      <section className="bg-gray-600 pt-12 pb-8">
         <div className="container mx-auto px-6">
           <h2 className="mb-6 text-4xl font-bold text-center text-white md:text-4xl">
             O que nossos alunos estão falando do curso
@@ -16,7 +16,7 @@ const Testimonial = () => {
       </section>
 
       {/* <!-- Download Boxes --> */}
-      <section id="download-boxes" className="bg-gray-600 pt-12 pb-12">
+      <section className="bg-gray-600 pt-12 pb-12">
         {/* <!-- Boxes Container --> */}
         <div className="relative flex flex-col items-center max-w-5xl mx-auto space-y-10 px-10 md:px-6 md:space-y-0 md:space-x-7 md:flex-row">
           {/* <!-- Box 1 --> */}
@@ -39,7 +39,7 @@ const Testimonial = () => {
               {/* <!-- Image --> */}
               <div className="flex mx-auto justify-center rounded">
                 <img
-                  src="images/testimonial_1.png"
+                  src="images/testimonial_2.png"
                   alt=""
                   className="rounded-lg"
                 />
@@ -53,7 +53,7 @@ const Testimonial = () => {
               {/* <!-- Image --> */}
               <div className="flex mx-auto justify-center rounded">
                 <img
-                  src="images/testimonial_1.png"
+                  src="images/testimonial_3.png"
                   alt=""
                   className="rounded-lg"
                 />
@@ -70,7 +70,7 @@ const Testimonial = () => {
               {/* <!-- Image --> */}
               <div className="flex mx-auto justify-center rounded">
                 <img
-                  src="images/testimonial_1.png"
+                  src="images/testimonial_4.png"
                   alt=""
                   className="rounded-lg"
                 />
@@ -84,7 +84,7 @@ const Testimonial = () => {
               {/* <!-- Image --> */}
               <div className="flex mx-auto justify-center rounded">
                 <img
-                  src="images/testimonial_1.png"
+                  src="images/testimonial_5.png"
                   alt=""
                   className="rounded-lg"
                 />
@@ -98,7 +98,7 @@ const Testimonial = () => {
               {/* <!-- Image --> */}
               <div className="flex mx-auto justify-center rounded">
                 <img
-                  src="images/testimonial_1.png"
+                  src="images/testimonial_6.png"
                   alt=""
                   className="rounded-lg"
                 />

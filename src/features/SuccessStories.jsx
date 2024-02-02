@@ -15,7 +15,7 @@ const SuccessStories = ({
             Conheça alguns relatos
           </h2>
           <p className="max-w-xs mx-auto text-lg text-center text-gray-600 md:max-w-md">
-            Assista o nossas alunas falam sobre o cursode Depilação
+            Assista o que nossas alunas falam sobre o curso de Depilação
             Profissional.
           </p>
         </div>
