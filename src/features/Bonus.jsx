@@ -2,7 +2,7 @@ const Bonus = () => {
   return (
     <>
       {/* <!-- Download Heading --> */}
-      <section id="download" className="bg-[#B8E0D2] py-12">
+      <section id="download" className="bg-[#E3F3ED] py-12">
         <div className="container mx-auto px-6">
           <h2 className="mb-6 text-4xl font-bold text-center md:text-4xl">
             Muitos BÔNUS
@@ -17,7 +17,7 @@ const Bonus = () => {
       </section>
 
       {/* <!-- Download Boxes --> */}
-      <section id="download-boxes" className="bg-[#B8E0D2] pb-12">
+      <section id="download-boxes" className="bg-[#E3F3ED] pb-12">
         {/* <!-- Boxes Container --> */}
         <div className="relative flex flex-col items-center max-w-5xl mx-auto space-y-10 px-10 md:px-6 md:space-y-0 md:space-x-7 md:flex-row">
           {/* <!-- Box 1 --> */}

@@ -22,14 +22,14 @@ const DepilacaoProfissional = () => {
 
   // const bgColorNavbarFrom = "from-[#a64142]";
   const bgColorNavbarFrom = "from-[#512D5D]";
-  const bgColorNavbarTo = "to-[#EBB8D7]";
+  const bgColorNavbarTo = "to-[#9779AB]";
   // const bgColorNavbarTo = "to-[#fff1e4]";
   const textColorNavbar = "text-white";
   const textNavbar = "Curso de depilação";
 
   // const bgColorHeadlineFrom = "from-[#a64142]";
   const bgColorHeadlineFrom = "from-[#512D5D]";
-  const bgColorHeadlineTo = "to-[#EBB8D7]";
+  const bgColorHeadlineTo = "to-[#9779AB]";
   const textHeadlineH1 =
     "Conquiste sua independência financeira como profissional de DEPILAÇÃO!";
   const textHeadlineParagraph =

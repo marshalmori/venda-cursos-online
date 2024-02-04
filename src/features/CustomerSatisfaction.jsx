@@ -16,7 +16,7 @@ const CustomerSatisfaction = () => {
             </strong>
             <strong className="uppercase"> </strong>
           </p>
-          <div className="flex mx-auto justify-center rounded pt-10 w-56">
+          <div className="flex mx-auto justify-center rounded pt-10 w-40">
             <img src="images/money.svg" alt="" />
           </div>
         </div>
