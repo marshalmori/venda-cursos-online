@@ -2,7 +2,7 @@ const Testimonial = () => {
   return (
     <>
       {/* <!-- Testimonial section --> */}
-      <section className="bg-gray-600 pt-12 pb-8">
+      <section className="bg-[#9779AB] py-12">
         <div className="container mx-auto px-6">
           <h2 className="mb-6 text-4xl font-bold text-center text-white md:text-4xl">
             O que nossos alunos estão falando do curso
@@ -16,11 +16,11 @@ const Testimonial = () => {
       </section>
 
       {/* <!-- Download Boxes --> */}
-      <section className="bg-gray-600 pt-12 pb-12">
+      <section className="bg-[#9779AB] pt-10 pb-12">
         {/* <!-- Boxes Container --> */}
         <div className="relative flex flex-col items-center max-w-5xl mx-auto space-y-10 px-10 md:px-6 md:space-y-0 md:space-x-7 md:flex-row">
           {/* <!-- Box 1 --> */}
-          <div className="w-full md:w-1/3 bg-gray-600 rounded-lg">
+          <div className="w-full md:w-1/3 bg-[#9779AB] rounded-lg">
             <div className="flex flex-col w-full space-y-1 text-center rounded-lg shadow-lg">
               {/* <!-- Image --> */}
               <div className="flex mx-auto justify-center rounded">
@@ -34,7 +34,7 @@ const Testimonial = () => {
           </div>
 
           {/* <!-- Box 2 --> */}
-          <div className="w-full md:w-1/3 bg-gray-600 rounded-lg">
+          <div className="w-full md:w-1/3 bg-[#9779AB] rounded-lg">
             <div className="flex flex-col w-full space-y-1 text-center rounded-lg shadow-lg">
               {/* <!-- Image --> */}
               <div className="flex mx-auto justify-center rounded">
@@ -48,7 +48,7 @@ const Testimonial = () => {
           </div>
 
           {/* <!-- Box 3 --> */}
-          <div className="w-full md:w-1/3 bg-gray-600 rounded-lg">
+          <div className="w-full md:w-1/3 bg-[#9779AB] rounded-lg">
             <div className="flex flex-col w-full space-y-1 text-center rounded-lg shadow-lg">
               {/* <!-- Image --> */}
               <div className="flex mx-auto justify-center rounded">
@@ -65,7 +65,7 @@ const Testimonial = () => {
         {/* <!-- Boxes Container --> */}
         <div className="relative flex flex-col py-12 items-center max-w-5xl mx-auto space-y-10 px-10 md:px-6 md:space-y-0 md:space-x-7 md:flex-row">
           {/* <!-- Box 4 --> */}
-          <div className="w-full md:w-1/3 bg-gray-600 rounded-lg">
+          <div className="w-full md:w-1/3 bg-[#9779AB] rounded-lg">
             <div className="flex flex-col w-full space-y-1 text-center rounded-lg shadow-lg">
               {/* <!-- Image --> */}
               <div className="flex mx-auto justify-center rounded">
@@ -79,7 +79,7 @@ const Testimonial = () => {
           </div>
 
           {/* <!-- Box 5 --> */}
-          <div className="w-full md:w-1/3 bg-gray-600 rounded-lg">
+          <div className="w-full md:w-1/3 bg-[#9779AB] rounded-lg">
             <div className="flex flex-col w-full space-y-1 text-center rounded-lg shadow-lg">
               {/* <!-- Image --> */}
               <div className="flex mx-auto justify-center rounded">
@@ -93,7 +93,7 @@ const Testimonial = () => {
           </div>
 
           {/* <!-- Box 6 --> */}
-          <div className="w-full md:w-1/3 bg-gray-600 rounded-lg">
+          <div className="w-full md:w-1/3 bg-[#9779AB] rounded-lg">
             <div className="flex flex-col w-full space-y-1 text-center rounded-lg shadow-lg">
               {/* <!-- Image --> */}
               <div className="flex mx-auto justify-center rounded">

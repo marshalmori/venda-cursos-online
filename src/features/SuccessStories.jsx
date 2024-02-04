@@ -9,7 +9,7 @@ const SuccessStories = ({
   return (
     <>
       {/* <!-- Testimonial section --> */}
-      <section id="download" className=" pt-12">
+      <section id="download" className=" py-12">
         <div className="container mx-auto px-6">
           <h2 className="mb-6 text-4xl font-bold text-center  md:text-4xl">
             Conheça alguns relatos
@@ -22,7 +22,7 @@ const SuccessStories = ({
       </section>
 
       {/* <!-- Creations Section --> */}
-      <section id="creations">
+      <section className="pb-12">
         {/* <!-- Creations Container --> */}
         <div className="container max-w-6xl mx-auto my-8 px-6 text-gray-600 md:px-0">
           {/* <!-- Items Container --> */}

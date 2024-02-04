@@ -1,9 +1,9 @@
 const Footer = () => {
   // <!-- Footer Section -->
   return (
-    <footer className="bg-black">
+    <footer className="bg-[#512D5D] py-4 pb-24">
       {/* <!-- Container --> */}
-      <div className="container max-w-6xl py-10 mx-auto mb-12">
+      <div className="container max-w-6xl mx-auto">
         {/* <!-- Footer Flex Container --> */}
         <div className="flex flex-col items-center mb-8 space-y-6 md:flex-row md:space-y-0 md:justify-between md:items-start">
           {/* <!-- Menu & Logo Container --> */}
@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
 
           {/* <!-- Social & Copy Container --> */}
-          <div className="flex flex-col items-start justify-between space-y-4 text-gray-500">
+          <div className="flex flex-col items-start justify-between space-y-4 text-gray-400">
             {/* <!-- icons Container --> */}
             <div className="flex items-center justify-center mx-auto space-x-4 md:justify-end md:mx-0">
               {/* <!-- Icon 1 --> */}

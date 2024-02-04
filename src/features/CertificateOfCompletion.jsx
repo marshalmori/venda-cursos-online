@@ -2,8 +2,8 @@ const CertificateOfCompletion = () => {
   return (
     <div>
       {/* <!-- Features Heading --> */}
-      <section id="features" className="py-4">
-        <div className="container mx-auto mt-12 px-6">
+      <section id="features" className="py-12">
+        <div className="container mx-auto px-6">
           <h2 className="mb-6 text-4xl font-bold text-center">
             Certificado de Conclusão
           </h2>
@@ -13,7 +13,7 @@ const CertificateOfCompletion = () => {
       {/* <!-- Features Tabs --> */}
       <section>
         {/* <!-- Container --> */}
-        <div className="container relative mx-auto my-6 mb-10 mt-4 px-6">
+        <div className="container relative mx-auto my-6 mb-10 mt-4 px-6 pb-12">
           <div className="container mx-auto">
             {/* <!-- Panel 1 --> */}
             <div className="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-1">

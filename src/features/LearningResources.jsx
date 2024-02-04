@@ -2,7 +2,7 @@ const LearningResources = () => {
   return (
     <div>
       {/* Stats Section */}
-      <section id="stats" className="py-24 bg-white">
+      <section id="stats" className="py-12 bg-white">
         <div className="container mx-auto px-3">
           <h2 className="text-4xl mb-6 font-bold text-center">
             Recursos de Aprendizado
@@ -17,32 +17,32 @@ const LearningResources = () => {
       </section>
 
       {/* <!-- Feature Box Section --> */}
-      <section id="features" className="pb-32 bg-white">
+      <section id="features" className="pb-12 bg-white">
         <div className="relative container flex flex-col items-start px-6 mx-auto md:flex-row md:space-x-7">
           {/* <!-- Horizontal Line --> */}
-          <div className="hidden absolute top-24 w-10/12 left-16 h-3 bg-[#A64142] md:block"></div>
+          <div className="hidden absolute top-24 w-10/12 left-16 h-3 bg-[#EBB8D7 md:block"></div>
           {/* <!-- Vertical Line --> */}
-          <div className="absolute w-2 left-1/2 h-full -ml-1 bg-[#A64142] md:hidden"></div>
+          <div className="absolute w-2 left-1/2 h-full -ml-1 bg-[#EBB8D7] md:hidden"></div>
 
           {/* <!-- Box 1 --> */}
           <div className="relative flex flex-col p-6 space-y-6 bg-gray-100 rounded-lg md:w-1/3">
             {/* <!-- Image Positioning --> */}
             <div className="absolute -ml-10 left-1/2 -top-10 md:left-16">
               {/* <!-- Image Container For Background & Center --> */}
-              <div className="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-white border-2 border-[#A64142]">
+              <div className="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-white border-2 border-[#512D5D]">
                 {/* <img src="images/icon-brand-recognition.svg" alt="" /> */}
                 <svg
                   width="800px"
                   height="800px"
                   viewBox="0 0 1024 1024"
-                  fill="#A64142"
+                  fill="#512D5D"
                   className="icon"
                   version="1.1"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
                     d="M402.122 442.332l-80.49 278.489H289.44L208.95 442.332h38.636l56.34 210.882h3.22l56.34-210.882h38.636zM530.9 717.601h-37.023V442.332H530.9v275.269z m276.878-191.557c0 25.753-7.513 46.142-22.536 61.166-15.116 15.03-36.038 22.541-62.782 22.541h-46.684v107.85h-37.028V442.332h83.712c26.744 0 47.665 7.512 62.782 22.543 15.023 15.024 22.536 35.412 22.536 61.169z m-37.023 0c0-20.393-4.831-34.34-14.486-41.857-9.667-7.507-24.154-11.266-43.47-11.266h-37.024v106.245H712.8c19.315 0 33.8-3.76 43.469-11.273 9.655-7.513 14.486-21.46 14.486-41.85zM956.942 807.99c0 33.91-27.493 61.397-61.398 61.397H119.93c-33.913 0-61.402-27.486-61.402-61.397V216.01c0-33.91 27.489-61.397 61.402-61.397h775.614c33.905 0 61.398 27.486 61.398 61.397v591.98z m-49.234-466.293h-804.04V789.63c0 17.689 14.34 32.037 32.036 32.037h739.972c17.69 0 32.033-14.348 32.033-32.037V341.697h-0.001z m0-52.891v-51.367c0-17.69-14.343-32.03-32.033-32.03h-739.97c-17.697 0-32.036 14.34-32.036 32.03v51.367h804.039z m0 0"
-                    fill=""
+                    fill="#512D5D"
                   />
                 </svg>
               </div>
@@ -51,8 +51,7 @@ const LearningResources = () => {
               Suporte VIP
             </h5>
             <p className="text-center text-gray-400 md:text-left">
-              Boost your brand recognition with each click. Generic links mean a
-              thing. Branded links help instil confidence in your content.
+              Você terá um suporte VIP com a professora Priscilla Fidelis.
             </p>
           </div>
 
@@ -61,7 +60,7 @@ const LearningResources = () => {
             {/* <!-- Image Positioning --> */}
             <div className="absolute -ml-10 left-1/2 -top-10 md:left-16">
               {/* <!-- Image Container For Background & Center --> */}
-              <div className="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-white border-2 border-[#A64142]">
+              <div className="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-white border-2 border-[#512D5D]">
                 <svg
                   height="800px"
                   width="800px"
@@ -71,9 +70,9 @@ const LearningResources = () => {
                   xmlnsXlink="http://www.w3.org/1999/xlink"
                   viewBox="0 0 512 512"
                   xmlSpace="preserve"
-                  fill="#A64142"
+                  fill="#512D5D"
                 >
-                  <style type="text/css">fill:#A64142;</style>
+                  <style type="text/css">fill:#512D5D;</style>
                   <g>
                     <path
                       className="st0"
@@ -121,9 +120,8 @@ const LearningResources = () => {
               Métodos Profissionais
             </h5>
             <p className="text-center text-gray-400 md:text-left">
-              Gain insights into who is clicking your links. Knowing when and
-              where people engage with your content helps inform better
-              decisions.
+              Terá acesso a métodos profissionais utilizados pelos melhores
+              profissionais do país.
             </p>
           </div>
 
@@ -132,7 +130,7 @@ const LearningResources = () => {
             {/* <!-- Image Positioning --> */}
             <div className="absolute -ml-10 left-1/2 -top-10 md:left-16">
               {/* <!-- Image Container For Background & Center --> */}
-              <div className="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-white border-2 border-[#A64142]">
+              <div className="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-white border-2 border-[#512D5D]">
                 <svg
                   width="800px"
                   height="800px"
@@ -142,13 +140,13 @@ const LearningResources = () => {
                 >
                   <path
                     d="M12 18C8.68629 18 6 15.3137 6 12C6 8.68629 8.68629 6 12 6C15.3137 6 18 8.68629 18 12C18 12.7215 17.8726 13.4133 17.6392 14.054C17.5551 14.285 17.4075 14.4861 17.2268 14.6527L17.1463 14.727C16.591 15.2392 15.7573 15.3049 15.1288 14.8858C14.6735 14.5823 14.4 14.0713 14.4 13.5241V12M14.4 12C14.4 13.3255 13.3255 14.4 12 14.4C10.6745 14.4 9.6 13.3255 9.6 12C9.6 10.6745 10.6745 9.6 12 9.6C13.3255 9.6 14.4 10.6745 14.4 12Z"
-                    stroke="#A64142"
+                    stroke="#512D5D"
                     strokeWidth="1.5"
                     strokeLinecap="round"
                   />
                   <path
                     d="M7 3.33782C8.47087 2.48697 10.1786 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 10.1786 2.48697 8.47087 3.33782 7"
-                    stroke="#A64142"
+                    stroke="#512D5D"
                     strokeWidth="1.5"
                     strokeLinecap="round"
                   />
@@ -159,8 +157,8 @@ const LearningResources = () => {
               Comunidades
             </h5>
             <p className="text-center text-gray-400 md:text-left">
-              Improve brand awareness and content discoverability through
-              customizable links, supercharging audience engagement.
+              Terá a sua disposição de forma exclusiva acesso as comunidades do
+              Facebook e Telegram.
             </p>
           </div>
 
@@ -169,7 +167,7 @@ const LearningResources = () => {
             {/* <!-- Image Positioning --> */}
             <div className="absolute -ml-10 left-1/2 -top-10 md:left-16">
               {/* <!-- Image Container For Background & Center --> */}
-              <div className="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-white border-2 border-[#A64142]">
+              <div className="flex items-center justify-center w-20 h-20 p-4 rounded-full bg-white border-2 border-[#512D5D]">
                 <svg
                   width="800px"
                   height="800px"
@@ -179,7 +177,7 @@ const LearningResources = () => {
                 >
                   <path
                     d="M4.00003 21V18.5C4.00003 15.4624 6.46246 13 9.50003 13H14.5C17.5376 13 20 15.4624 20 18.5V21M8.00003 21V18M16 21V18M4.37966 7L6.37966 9M4.37966 7L2.12042 9M4.37966 7V11.5M16 6.5C16 8.70914 14.2092 10.5 12 10.5C9.79089 10.5 8.00003 8.70914 8.00003 6.5C8.00003 4.29086 9.79089 2.5 12 2.5C14.2092 2.5 16 4.29086 16 6.5Z"
-                    stroke="#A64142"
+                    stroke="#512D5D"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="1.4"
@@ -191,8 +189,9 @@ const LearningResources = () => {
               Zero ao Profissional
             </h5>
             <p className="text-center text-gray-400 md:text-left">
-              Improve brand awareness and content discoverability through
-              customizable links, supercharging audience engagement.
+              Os conteúdos serão apresentados de forma simples para que você
+              consiga sair do zero e chegar ao profissional mesmo sem
+              experiência prévia.
             </p>
           </div>
         </div>

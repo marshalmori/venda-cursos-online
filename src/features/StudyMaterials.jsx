@@ -9,8 +9,8 @@ const StudyMaterials = ({
   return (
     <div>
       {/* <!-- Features Heading --> */}
-      <section id="features" className="py-10">
-        <div className="container mx-auto mt-10 px-6">
+      <section id="features" className="py-12">
+        <div className="container mx-auto px-6">
           <h2 className="mb-6 text-4xl font-bold text-center">
             Fornecemos Materiais de Estudo e Apoio
           </h2>
@@ -25,7 +25,7 @@ const StudyMaterials = ({
       {/* <!-- Features Tabs --> */}
       <section id="tabs">
         {/* <!-- Tabs/Panels Container --> */}
-        <div className="container relative mx-auto my-6 mb-12 mt-8 px-6">
+        <div className="container relative mx-auto my-6 mb-12 mt-8 px-6 pb-12">
           <div id="panels" className="container mx-auto">
             {/* <!-- Panel 1 --> */}
             <div className="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-1">

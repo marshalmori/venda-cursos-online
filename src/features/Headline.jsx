@@ -12,7 +12,7 @@ const Headline = ({
   textHeadlineParagraph,
   imgHeadline,
 }) => {
-  const base = "pt-24 leading-normal tracking-normal text-white";
+  const base = "pt-12 leading-normal tracking-normal text-white";
   const gradiente = `bg-gradient-to-r ${bgColorHeadlineFrom} ${bgColorHeadlineTo}`;
   return (
     <>
