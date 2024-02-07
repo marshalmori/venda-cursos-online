@@ -16,7 +16,7 @@ const TermsOfUse = () => {
           <p className="w-full text-gray-700">
             Ao acessar ao site{" "}
             <Link
-              className="text-[#512D5D] font-bold"
+              className="text-[#512D5D] font-bold hover:border-b-2 hover:border-[#512D5D]"
               to="/depilacao-profissional"
             >
               Curso de Depilação

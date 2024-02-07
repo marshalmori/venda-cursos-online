@@ -5,6 +5,7 @@ import ViverCilios from "./pages/ViverCilios";
 import Homepage from "./pages/Homepage";
 import PageNotFound from "./pages/PageNotFound";
 import TermsOfUse from "./features/TermsOfUse";
+import PrivacyPolicy from "./features/PrivacyPolicy";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           element={<DepilacaoProfissional />}
         />
         <Route path="termos-de-uso" element={<TermsOfUse />} />
+        <Route path="politica-de-privacidade" element={<PrivacyPolicy />} />
 
         <Route path="sobrancelha-perfeita" element={<SobrancelhaPerfeita />} />
         <Route path="viver-cilios" element={<ViverCilios />} />
