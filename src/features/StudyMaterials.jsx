@@ -9,7 +9,7 @@ const StudyMaterials = ({
   return (
     <div>
       {/* <!-- Features Heading --> */}
-      <section id="features" className="py-12">
+      <section className="py-12">
         <div className="container mx-auto px-6">
           <h2 className="mb-6 text-4xl font-bold text-center">
             Fornecemos Materiais de Estudo e Apoio
@@ -23,12 +23,12 @@ const StudyMaterials = ({
       </section>
 
       {/* <!-- Features Tabs --> */}
-      <section id="tabs">
+      <section>
         {/* <!-- Tabs/Panels Container --> */}
-        <div className="container relative mx-auto my-6 mb-12 mt-8 px-6 pb-12">
-          <div id="panels" className="container mx-auto">
+        <div className="container relative mx-auto mb-12 px-6 pb-12">
+          <div className="container mx-auto">
             {/* <!-- Panel 1 --> */}
-            <div className="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-1">
+            <div className="flex flex-col  md:flex-row md:space-x-7 panel panel-1">
               {/* <!-- Panel Image --> */}
               <div className="flex justify-center md:w-1/2">
                 <img
