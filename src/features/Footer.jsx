@@ -11,11 +11,11 @@ const Footer = () => {
           {/* <!-- Menu & Logo Container --> */}
           <div className="flex flex-col items-center space-y-8 md:items-start md:space-y-4">
             {/* <!-- Menu Container --> */}
-            <div className="flex flex-col items-center space-y-4 mt-12 font-bold text-white md:flex-row md:space-y-0 md:space-x-6 md:ml-3">
+            <div className="flex flex-col items-center space-y-4 mt-12 font-bold text-gray-400 md:flex-row md:space-y-0 md:space-x-6 md:ml-3">
               {/* <!-- Item 3 --> */}
               <div className="h-10 group">
                 <Link to="/termos-de-uso">Termos de uso</Link>
-                <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                <div className="mx-2 group-hover:border-b group-hover:border-gray-400"></div>
               </div>
 
               {/* <!-- Item 5 --> */}
@@ -23,7 +23,7 @@ const Footer = () => {
                 <Link to="/politica-de-privacidade">
                   Política de privacidade
                 </Link>
-                <div className="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                <div className="mx-2 group-hover:border-b group-hover:border-gray-400"></div>
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@ const Footer = () => {
               {/* <!-- Icon 1 --> */}
               <div className="h-8 group">
                 <a href="#">
-                  <img src="images/icon-facebook.svg" alt="" className="h-6" />
+                  <img src="images/icon-facebook.svg" alt="" className="h-6 " />
                 </a>
               </div>
               {/* <!-- Icon 2 --> */}
