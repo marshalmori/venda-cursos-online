@@ -17,6 +17,7 @@ const Navbar = ({
     <nav className={`${base} ${gradiente} `}>
       <div className="w-full container flex flex-wrap items-center justify-between mt-0 py-2 ">
         <div className="flex pl-4 mx-auto py-4 ">
+          {/* <img src="images/favicon.png" alt="Logotipo Virtual Center"></img> */}
           <a
             className={`${textColorNavbar} no-underline hover:no-underline font-bold text-2xl lg:text-4xl uppercase`}
             href="#"
