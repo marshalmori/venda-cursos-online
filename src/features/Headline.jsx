@@ -20,10 +20,10 @@ const Headline = ({
         <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
           <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
             <p className="leading-normal text-2xl mb-10"></p>
-            <h1 className="my-7 text-5xl font-bold leading-tight">
+            <h1 className="my-7 text-4xl font-bold leading-tight">
               {textHeadlineH1}
             </h1>
-            <p className="leading-normal text-3xl md:text-2xl md:mt-0 mt-4 mb-8">
+            <p className="leading-normal text-2xl md:text-2xl md:mt-0 mt-4 mb-8">
               {textHeadlineParagraph}
             </p>
 

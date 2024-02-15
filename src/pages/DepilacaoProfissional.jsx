@@ -33,7 +33,7 @@ const DepilacaoProfissional = () => {
   const textHeadlineH1 =
     "Conquiste sua independência financeira como profissional de DEPILAÇÃO!";
   const textHeadlineParagraph =
-    "Tenha seu próprio negócio, trabalhe de casa ou monte sua própria clínica. Ensinaremos como ser um profissional partindo do absoluto ZERO.";
+    "Tenha seu próprio negócio, trabalhe de casa ou monte sua própria clínica. Ensinaremos como ser um profissional partindo do absoluto ZERO. Tudo isso de forma ONLINE no aconchego de sua casa.";
   const imgHeadline = "images/super_women.svg";
 
   return (
