@@ -18,7 +18,7 @@ export default defineConfig({
       // Google Tag Manager (multiple tag can be set with an array)
       gtm: [
         {
-          id: "K6GTDJXN",
+          id: "GTM-K6GTDJXN",
 
           // You can set custom source for gtm script and noscript
           gtmBase: "https://www.custom.com/gtm.js",
