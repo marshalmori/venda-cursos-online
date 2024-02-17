@@ -18,7 +18,7 @@ export default defineConfig({
       // Google Tag Manager (multiple tag can be set with an array)
       gtm: [
         {
-          id: `GTM-${import.meta.env.VITE_GTM}`,
+          id: import.meta.env.VITE_GTM,
 
           // You can set custom source for gtm script and noscript
           gtmBase: "https://www.custom.com/gtm.js",
