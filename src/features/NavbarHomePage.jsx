@@ -75,16 +75,17 @@ const NavbarHomePage = () => {
       {/* <!-- Hero Section --> */}
       <section id="hero">
         {/* <!-- Container For Image & Content --> */}
-        <div className="container flex flex-col-reverse mx-auto p-6 lg:flex-row lg:mb-0 mt-12">
+        <div className="container flex flex-col-reverse mx-auto p-6 lg:flex-row lg:mb-0 mt-20">
           {/* <!-- Content --> */}
           <div className="flex flex-col space-y-10 lg:mt-16 lg:w-1/2">
             <h1 className="text-3xl font-semibold text-center lg:text-6xl lg:text-left">
-              A Simple Bookmark Manager
+              Sua Central de Cursos Online
             </h1>
             <p className="max-w-md mx-auto text-lg text-center text-gray-400 lg:text-2xl lg:text-left lg:mt-0 lg:mx-0">
-              A clean and simple interface to organize your favourite websites.
-              Open a new browser tab and see your sites load instantly. Try it
-              for free.
+              Nossa missão é selecionar os melhores cursos online para você.
+              Pesquisamos, selecionamos e testamos para podermos indicar cursos
+              de qualidade com preço justo. Para saber as novidades cadastre-se
+              na nossa lista de envios de cursos novos.
             </p>
             {/* <!-- Buttons Container --> */}
             <div className="flex items-center justify-center w-full space-x-4 lg:justify-start">
@@ -92,14 +93,14 @@ const NavbarHomePage = () => {
                 href="#"
                 className="p-4 text-sm font-semibold text-white bg-softBlue rounded shadow-md border-2 border-softBlue md:text-base hover:bg-white hover:text-softBlue"
               >
-                Get It On Chrome
+                Cadastrar para Novidades
               </a>
-              <a
+              {/* <a
                 href="#"
                 className="p-4 text-sm font-semibold text-black bg-gray-300 rounded shadow-md border-2 border-gray-300 md:text-base hover:bg-white hover:text-gray-600"
               >
                 Get It On Firefox
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -118,7 +119,9 @@ const NavbarHomePage = () => {
       {/* <!-- Features Heading --> */}
       <section id="features">
         <div className="container mx-auto mt-16 px-6">
-          <h2 className="mb-6 text-4xl font-semibold text-center">Features</h2>
+          <h2 className="mb-6 text-4xl font-semibold text-center">
+            Cursos Indicados
+          </h2>
           <p className="max-w-md mx-auto text-center text-grayishBlue">
             Our aim is to make it quick and easy for you to access your
             favourite websites. Your bookmarks sync between your devices so you
