@@ -1,9 +1,9 @@
 const NavbarHomePage = () => {
   return (
     <body className="overflow-x-hidden">
-      <nav className="fixed w-full z-30 top-0 bg-softBlue">
+      <nav className="w-full z-30 top-0 bg-softBlue">
         {/* <!-- Flex Container For Nav Items --> */}
-        <div className="w-full container flex flex-wrap items-center justify-between mt-0 py-2 ">
+        <div className="w-full container flex flex-wrap items-center justify-between mt-0 ">
           {/* <!-- Logo --> */}
           <div className="flex pl-4 mx-auto py-4 ">
             <img
@@ -75,9 +75,9 @@ const NavbarHomePage = () => {
       {/* <!-- Hero Section --> */}
       <section id="hero">
         {/* <!-- Container For Image & Content --> */}
-        <div className="container flex flex-col-reverse mx-auto p-6 lg:flex-row lg:mb-0 mt-20">
+        <div className="container flex flex-col-reverse mx-auto p-6 lg:flex-row lg:mb-0">
           {/* <!-- Content --> */}
-          <div className="flex flex-col space-y-10 lg:mt-16 lg:w-1/2">
+          <div className="flex flex-col space-y-10 lg:mt-8 lg:w-1/2">
             <h1 className="text-3xl font-semibold text-center lg:text-6xl lg:text-left">
               Sua Central de Cursos Online
             </h1>
@@ -87,11 +87,11 @@ const NavbarHomePage = () => {
               de qualidade com preço justo. Para saber as novidades cadastre-se
               na nossa lista de envios de cursos novos.
             </p>
-            {/* <!-- Buttons Container --> */}
+            {/* <!-- Button Container --> */}
             <div className="flex items-center justify-center w-full space-x-4 lg:justify-start">
               <a
                 href="#"
-                className="p-4 text-sm font-semibold text-white bg-softBlue rounded shadow-md border-2 border-softBlue md:text-base hover:bg-white hover:text-softBlue"
+                className="p-4 text-sm font-semibold text-white bg-softRed rounded shadow-md border-2 border-softRed md:text-base hover:bg-white hover:text-softRed"
               >
                 Cadastrar para Novidades
               </a>
@@ -118,14 +118,14 @@ const NavbarHomePage = () => {
 
       {/* <!-- Features Heading --> */}
       <section id="features">
-        <div className="container mx-auto mt-16 px-6">
+        <div className="container mx-auto mt-20 px-6">
           <h2 className="mb-6 text-4xl font-semibold text-center">
             Cursos Indicados
           </h2>
           <p className="max-w-md mx-auto text-center text-grayishBlue">
-            Our aim is to make it quick and easy for you to access your
-            favourite websites. Your bookmarks sync between your devices so you
-            can access them on the go.
+            Os cursos abaixo são da área de beleza. Todos de muito boa qualidade
+            com instrutores profissionais. Os alunos que compraram estão muito
+            satisfeitos e na grande maioria indicam a compra.
           </p>
         </div>
       </section>
@@ -146,7 +146,7 @@ const NavbarHomePage = () => {
                 className="py-5 border-b-4 border-softRed"
                 data-target="panel-1"
               >
-                Simple Bookmarking
+                Curso de Depilação
               </div>
             </div>
 
@@ -156,7 +156,7 @@ const NavbarHomePage = () => {
               data-target="panel-2"
             >
               <div className="py-5" data-target="panel-2">
-                Speedy Searching
+                Curso de Sobrancelha
               </div>
             </div>
 
@@ -166,7 +166,7 @@ const NavbarHomePage = () => {
               data-target="panel-3"
             >
               <div className="py-5" data-target="panel-3">
-                Easy Sharing
+                Curso Viver de Cílios
               </div>
             </div>
           </div>
