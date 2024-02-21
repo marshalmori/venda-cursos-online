@@ -118,7 +118,7 @@ const NavbarHomePage = () => {
 
       {/* <!-- Features Heading --> */}
       <section id="features">
-        <div className="container mx-auto mt-20 px-6">
+        <div className="container mx-auto mt-16 px-6 md:mx-0">
           <h2 className="mb-6 text-4xl font-semibold text-center">
             Cursos Indicados
           </h2>
@@ -178,7 +178,7 @@ const NavbarHomePage = () => {
               {/* <!-- Panel Image --> */}
               <div className="flex justify-center md:w-1/2">
                 <img
-                  src="images/illustration-features-tab-1.svg"
+                  src="images/super_women.svg"
                   alt=""
                   className="relative z-10"
                 />
@@ -186,7 +186,7 @@ const NavbarHomePage = () => {
               {/* <!-- Panel Content --> */}
               <div className="flex flex-col space-y-8 md:w-1/2">
                 <h3 className="mt-32 text-3xl font-semibold text-center md:mt-0 md:text-left">
-                  Bookmark in one click
+                  Torne-se profissional da Depilação
                 </h3>
                 <p className="max-w-md text-center text-grayishBlue md:text-left">
                   Organize your bookmarks however you like. Our simple
